@@ -1,6 +1,29 @@
-age = int(input("Enter your age: "))
+a = 6
+b = 25
+result = a > b 
+print ("result of" ,a, ">" ,b,"is :",result)
 
-if age >= 18:
-    print("Eligible for voting")
-else:
-    print("Not eligible for voting")
+result = a < b
+print ("result of" ,a, "<" ,b,"is :",result)
+
+result = a + b
+print ("result of" ,a, "+" ,b,"is :",result)
+
+result = a - b
+print ("result of" ,a, "-" ,b,"is :",result)
+
+result = a * b
+print ("result of" ,a, "*" ,b,"is :",result)
+
+result = a / b
+print ("result of" ,a, "/" ,b,"is :",result)
+
+result = a ** b
+print ("result of" ,a, "**" ,b,"is :",result)
+
+result = a // b
+print ("result of" ,a, "//" ,b,"is :",result)
+
+result = a % b
+print ("result of" ,a, "%" ,b,"is :",result)
+
